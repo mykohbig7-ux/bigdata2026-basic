@@ -27,7 +27,7 @@ st.set_page_config(
 #   - 파일 경로는 상대 경로. main.py기준
 #   - default=True인 페이지가 앱을 처음 열었을 때 보이는 화면이 된다.
 home_page = st.Page('pages_src/home.py', title='홈', icon='🏢', default=True)
-explore_page = st.Page('page_src/explore.py', title='역별 탐색', icon='🚉')
+explore_page = st.Page('pages_src/explore.py', title='역별 탐색', icon='🚉')
 search_page = st.Page('pages_src/search.py', title='검색', icon='🔎')
 trend_page = st.Page('pages_src/trend.py', title='기간,시간대 추이', icon='📈')
 about_page = st.Page('pages_src/about.py', title='소개', icon='💡')
